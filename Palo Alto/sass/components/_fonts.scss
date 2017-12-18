@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i');
+
+* {
+	font-family: 'Lato', sans-serif;
+	h1, h2, h3, h4, h5, h6, span {
+		font-weight: 700;
+	}
+	a, p {
+		font-weight: 400;
+	}
+}
+.navbar-brand {
+	font-size: 2.55em;
+	font-weight: 700;
+	font-style: italic;
+}
+.nav-link {
+	font-size: 0.875em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.date, .badge {
+	font-size: 0.875em;
+	font-weight: 700;
+}
+.card-title {
+	font-size: 2.45em;
+}
+.card-text {
+	font-size: 1.05em;
+}
+.card-link {
+	font-size: 1.3em;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.tags .badge {
+	font-size: 0.95em;
+	font-weight: 400;
+}
+.blockquote {
+	p {
+		font-size: 1.5em;
+		font-style: italic;
+	}
+	.blockquote-footer {
+		font-size: 0.95em;
+	}
+}
+.intext-link {
+	font-size: 1.05em;
+	font-weight: 700;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.page-link {
+	font-size: 1.125em;
+	font-weight: 700;
+}
+.secondary-nav {
+	.navbar-brand {
+		font-size: 3em;
+	}
+	.nav-link {
+		font-size: 1em;
+		text-transform: uppercase;
+	}
+}
+.footer-quote {
+	font-size: 0.8em;
+}
+.copyright {
+	font-size: 0.875em;
+}
+.social-media i {
+	font-size: 1.55em;
+}

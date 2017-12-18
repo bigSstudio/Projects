@@ -1,0 +1,28 @@
+//=====NAVIGATION=====//
+.main-navigation {
+  padding: 40px 0px;
+  background-color: $colorBG;
+  .navbar-brand {
+    display: inline;
+    color: $dark;
+  }
+  .nav-item {
+    margin-left: 30px;
+    margin-top: 3px;
+    .nav-link {
+      color: $dark;
+      margin-left: .5rem;
+      margin-right: .5rem;
+      padding: 0!important;
+      padding-bottom: 3px!important;
+      border-bottom: 3px solid $colorBG;
+      &:hover, &:active {
+        border-bottom: 3px solid $purple;
+        transition: $transition;
+      }
+    }
+  }
+  .active .nav-link {
+      color: $gray!important;
+  }
+}

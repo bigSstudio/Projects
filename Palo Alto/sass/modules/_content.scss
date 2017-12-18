@@ -1,0 +1,142 @@
+//=====MAIN CONTENT=====//
+
+.main-content {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.card {
+  border: none;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.1);
+  border-radius: 0;
+  background-color: $whiteBG;
+  .card-header {
+    position: relative;
+    background-color: $whiteBG;
+    padding: 0;
+    margin: 60px 90px 0;
+    .badge {
+      position: absolute;
+      right: -112px;
+      top: -40px;
+      border-radius: 0;
+    }
+    .date {
+      margin-bottom: 30px;
+      color: $gray;
+    }
+    .card-title {
+      margin-bottom: 40px;
+      line-height: 50px;
+    }
+  }
+  .no-border {
+      border: 0;
+    }
+  .card-block {
+    padding: 0;
+    margin: 0 90px 40px;
+    .card-text {
+      margin-top: 40px;
+      line-height: 30px;
+      color: $dark;
+    }
+    .blockquote {
+      border-left: none;
+      padding: 0;
+      margin-top: 40px;
+      p {
+        margin-bottom: 0;
+        line-height: 38px;
+        color: $gray;
+      }
+    }
+  }
+  .card-footer {
+    background-color: $whiteBG;
+    padding: 0 0 17px 0;
+    margin: 0 90px 60px;
+    border-top: none;
+    .card-link {
+      color: $purple;
+    }
+    .tags .badge {
+      color: $gray;
+    }
+  }
+  .quote {
+    position: absolute;
+    top: 30px;
+    left: -20px;
+  }
+  .ex {
+      position: relative;
+      margin-top: 0px!important;
+      top: -40px;
+      p {
+        margin-bottom: 0;
+        line-height: 38px;
+        color: $dark!important;
+        letter-spacing: 1px;
+      }
+    }
+    .dist-quote {
+      margin-top: 84px;
+    }
+    .statue {
+      float: left;
+      margin: 40px 30px 50px 0;
+    }
+}
+.ex2 {
+  border-left: 4px solid $separator!important;
+  padding-left: 20px!important;
+}
+.page-item {
+  margin-right: 7px;
+  margin-left: 7px;
+  background-color: $whiteBG;
+  .page-link {
+    border-radius: 0!important;
+    border: none;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.08);
+    width: 40px;
+    height: 40px;
+    padding-left: 14px;
+    color: $dark;
+    &:hover, &:active {
+      color: #fff!important;
+      background-color: $purple!important;
+      transition: $transition!important;
+    }
+  }
+}
+.page-item.active .page-link {
+    z-index: 2;
+    color: #fff;
+    background-color: $purple;
+}
+hr {
+  margin: 0;
+}
+.carousel-inner {
+  max-height: 550px;
+  .slide-img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.carousel-indicators {
+  bottom: 30px;
+  li {
+    height: 12px;
+    width: 12px;
+    max-width: 12px;
+    background-color: transparent;
+    border: 2px solid $whiteBG;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+}

@@ -1,0 +1,47 @@
+.grid { 
+  display: block;
+  column-count: 2;
+  column-gap: 0;
+  column-width: 50%;
+  max-height: 100%;
+  width: 100%;
+  padding: 4px;
+}
+.grid-item { 
+  display: inline-block;
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 4px;
+  img {
+  height: auto;
+  max-height: 400px;
+  width: 100%;
+  }
+  .opacity {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: $opacity;
+    margin: 4px;
+    text-align: center;
+    p {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      color: $whiteBG;
+      margin: 0;
+      line-height: normal;
+      span {
+        display: block;
+        font-size: 4.85em;
+        font-weight: 400;
+      }
+    }
+  }
+}
